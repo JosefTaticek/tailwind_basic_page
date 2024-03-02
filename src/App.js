@@ -14,7 +14,7 @@ const App = () => {
                 justify-between
                 items-center
                 bg-black
-                h-24">
+                h-28">
         <div class="ml-8">
           <img class="w-40" src={Logo} alt="web_logo"/>
         </div>
@@ -76,8 +76,8 @@ const App = () => {
       </div>
 
       <div class="absolute bottom-20 flex flex-col items-center w-full lg:flex-row lg:justify-center lg:space-x-4"> {/*Absolute position is connected to header relative*/}
-        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-3">Objednat</button>
-        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-2">Více informací</button>
+        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-3">Order</button>
+        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-2">More information</button>
       </div>
 
       <div class="absolute bottom-5 w-full">
@@ -106,8 +106,8 @@ const App = () => {
       </div>
 
       <div class="absolute bottom-20 flex flex-col items-center w-full lg:flex-row lg:justify-center lg:space-x-4"> {/*Absolute position is connected to header relative*/}
-        <button class="uppercase bg-green-950 w-80 text-white rounded-full h-10 mt-3">Objednat</button>
-        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-2">Více informací</button>
+        <button class="uppercase bg-green-950 w-80 text-white rounded-full h-10 mt-3">Order</button>
+        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-2">More information</button>
       </div>
 
       <div class="absolute bottom-5 w-full">
@@ -131,8 +131,8 @@ const App = () => {
       </div>
 
       <div class="absolute bottom-20 flex flex-col items-center w-full lg:flex-row lg:justify-center lg:space-x-4"> {/*Absolute position is connected to header relative*/}
-        <button class="uppercase bg-slate-600 w-80 text-white rounded-full h-10 mt-3">Objednat</button>
-        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-2">Více informací</button>
+        <button class="uppercase bg-slate-600 w-80 text-white rounded-full h-10 mt-3">Order</button>
+        <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10 mt-2">More information</button>
       </div>
     </section>
 
