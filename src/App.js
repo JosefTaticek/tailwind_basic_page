@@ -285,6 +285,59 @@ const App = () => {
       </div>
     </section>
 
+
+    {/*FILTER SECTION*/}
+    <section class="h-screen flex flex-row justify-center items-center">
+      <div class="bg-[#322e59] text-[#bcbacf] p-8 rounded-[20px] shadow-2xl">
+        <div class="w-[250px] text-3xl flex flex-row justify-between items-center">
+          <h1>Filter</h1>
+          <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+          </svg>
+        </div>
+
+        <div class="relative mt-5 flex flex-col">
+          <h2 class="uppercase text-[12px] mb-[5px]">Search by keywords</h2>
+          <input type="text" class="w-[220px] bg-[#1b183b] py-[10px] pl-10 outline-none placeholder:text-[#bcbacf] rounded-md" placeholder="Search jobs"/>
+          
+          <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6 absolute top-[33px] left-[5px]">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+          </svg>
+        </div>
+
+        <div class="mt-5">
+          <h2 class="uppercase text-xs mb-1">View</h2>
+          
+          <div class="flex flex-row items-center">
+            <input type="radio" id="all-job" class="h-5 w-5 accent-[#cfbace] "></input>
+            <label for="all-job" class="pl-[5px]">Active job posts</label>
+          </div>
+
+          <div class="flex flex-row items-center">
+            <input type="radio" id="all-job" class="h-5 w-5 accent-[#cfbace] "></input>
+            <label for="all-job" class="pl-[5px]">Archived job posts</label>
+          </div>
+
+          <div class="flex flex-row items-center">
+            <input type="radio" id="all-job" class="h-5 w-5 accent-[#cfbace] "></input>
+            <label for="all-job" class="pl-[5px]">All job posts</label>
+          </div>
+        </div>
+
+
+        <div class="mt-5">
+          <h2 class="uppercase text-[12px] mb-1">Include</h2>
+          <div class="flex flex-row items-center">
+            <input type="checkbox" id="shared-jobs" class="w-5 h-5 accent-[#bcbacf]"></input>
+            <label for="shared-jobs" class="pl-[10px]">Jobs shared with me</label>
+          </div>
+        </div>
+
+        <div class="mt-20 flex flex-row justify-center">
+          <button class="w-[200px] bg-[#EBB96E] text-black rounded-md py-[10px]">Save changes</button>
+        </div>
+      </div>
+    </section>
   </div>
 }
 
